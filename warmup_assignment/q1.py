@@ -17,14 +17,14 @@ Output:
 """
 
 class Solution:
-    def sum_of_all_integers(self, arr, n):
+    def sum_of_all_integers(self, arr, N):
         """
         method to return sum of all integers in given array
         TC: O(n)
         SC: O(1)
         """
         summation_of_integers = 0
-        for i in range(n):
+        for i in range(N):
             summation_of_integers += arr[i]
         return summation_of_integers
 
